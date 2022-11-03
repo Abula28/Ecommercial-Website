@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    // font-family: 'Inter Tight', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Dashed border
+    border: dashed 4px #000;
+  
+    border-image-source: url("http://i.stack.imgur.com/wLdVc.png");
+    border-image-slice: 2;
+    border-image-repeat: round; 
+*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 5% 20px;
+
+    .header-logo{
+        // padding: 40px 5% 0px;
+
+        .logo{
+            font-size: 32px;
+            strong{
+                font-weight: bolder;
+            }
+        }
+    }
+
+    .signIn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+        outline: none;
+        cursor: pointer;
+        
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 700;
+            margin-left: 10px;
+        }
+    }
+}
+
+.line{
+    width: 90%;
+    border: 1px solid #80808080;
+    margin: auto;
+}
+
+section{
+    margin: 20px 5% 20px;
+    
+    .loc{
+        display: flex;
+        justify-content: space-between;
+    
+
+        button{
+            border-radius: 20px;
+            padding: 16px 16px 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            outline: none;
+            background-color: #FFAE5D;
+            font-size: 16px;
+            font-weight: 550;
+            img{
+                padding-right: 10px;
+            }
+            cursor: pointer;
+        }
+
+        form{
+            position: relative;
+            input{
+                padding: 16px 549px 15px 16px;
+                border-radius: 20px;
+                border: 1px solid #80808080;
+                outline: none;
+            }
+            img{
+                position: absolute;
+                top: 25%;
+                right: 2%;
+                width: 16px;
+                height: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .list{
+        margin-top: 20px;
+        ul{
+            display: flex;
+            li{
+                list-style-type: none;
+                padding: 0px 27px 0px;
+                font-size: 13px;
+                color: #606060;
+            }
+            li:nth-child(1){
+                padding-left: 10px;
+            }
+            li:nth-child(15){
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+.things-header{
+    display: flex;
+    padding-top: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-color{
+    color: #FFAE5D;
+    font-weight: 600;
+}
+
+.thing-text{
+    padding-top: 180px;
+    h2{
+        font-weight: 300;
+        font-size: 96px;
+        line-height: 100px;
+    }
+}
+
+.thing-cards{
+    // border: 2px solid red;
+    width: 878px;
+    height: 760px;
+    // display: flex;
+    // flex-direction: column;
+
+    .hot-deal{
+        padding: 10px 20px 10px;
+        p{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        width: 100%;
+        border-bottom:  dashed 2px #FFAE5D;
+    }
+
+}
+
+.cards1{
+    padding-top: 20px;
+    display: flex;
+}
+
+.card{
+    // margin: auto;
+    padding: 10px 10px 10px;
+    margin-right: 47px;
+}
+
+.brand{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;    
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    p{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;    
+    }
+    .sale{
+        color:  #FF3232;
+    }
+}
+
+.cards2{
+    display: flex;
+    padding-top: 10px;
+}
+
+.component{
+    padding-top: 70px;
+    img{
+        width: 100%;
+        height: 55%;
+    }
+}
+
