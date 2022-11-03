@@ -135,12 +135,13 @@ section .list ul li:nth-child(15) {
   width: 878px;
   height: 760px;
 }
-.thing-cards .hot-deal {
+
+.hot-deal {
   padding: 10px 20px 10px;
   width: 100%;
   border-bottom: dashed 2px #FFAE5D;
 }
-.thing-cards .hot-deal p {
+.hot-deal p {
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
@@ -187,4 +188,14 @@ section .list ul li:nth-child(15) {
 .component img {
   width: 100%;
   height: 55%;
+}
+
+.today-hot-deals {
+  margin-top: 70px;
+}
+
+.cards3 {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

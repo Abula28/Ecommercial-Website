@@ -152,17 +152,18 @@ section{
     // display: flex;
     // flex-direction: column;
 
-    .hot-deal{
-        padding: 10px 20px 10px;
-        p{
-            font-weight: bold;
-            font-size: 24px;
-            line-height: 36px;
-        }
-        width: 100%;
-        border-bottom:  dashed 2px #FFAE5D;
-    }
 
+}
+
+.hot-deal{
+    padding: 10px 20px 10px;
+    p{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    width: 100%;
+    border-bottom:  dashed 2px #FFAE5D;
 }
 
 .cards1{
@@ -206,5 +207,15 @@ section{
         width: 100%;
         height: 55%;
     }
+}
+
+.today-hot-deals{
+    margin-top: 70px;
+}
+
+.cards3{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
 }
 
