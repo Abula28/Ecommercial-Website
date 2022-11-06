@@ -1,0 +1,84 @@
+@media(max-width: 900px){
+    .things-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list{
+        display: flex;
+        width: 100%;
+        ul{
+            width: 100%;
+            li{
+                font-size: 60% !important;
+            }
+        }
+    }
+
+    .loc{
+        button{
+            padding: 10px 10px 10px !important;
+            font-size: 13px !important;
+        }
+    }
+
+    input{
+        padding: 12px 100px 11px 12px !important;
+    }
+
+
+    section{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .thing-text{
+        h2{
+            font-size: 500%;
+        }
+    }
+
+    .cards1, .cards2{
+        img{
+            width: 50%;
+            height: 50%;
+        }
+    }
+
+    .cards3, .cards4, .cards5{
+        img{
+            width: 50%;
+            height: 50%;
+        }
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .component2{
+        p{
+            font-size: 20px;
+        }
+    }
+
+
+    .review-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .review-card , .review-card2{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 80%;
+            margin: auto;
+            img{
+                width: 50%;
+                border: 1px solid red;
+                transform: translateX(50%);
+            }
+        }
+    }
+}

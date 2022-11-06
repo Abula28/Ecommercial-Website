@@ -111,7 +111,7 @@ section{
             li{
                 list-style-type: none;
                 padding: 0px 1.5% 0px;
-                font-size: 13px;
+                font-size: 80%;
                 color: #606060;
             }
             li:nth-child(1){
@@ -175,6 +175,7 @@ section{
     // margin: auto;
     padding: 10px 10px 10px;
     margin-right: 50px;
+    
 }
 
 .brand{
@@ -255,7 +256,7 @@ section{
 .component2{
     position: relative;
     padding-top: 70px;
-    .component2{
+    img{
         width: 100%;
         height: 55%;
     }
@@ -289,3 +290,146 @@ section{
         margin-left: 0px;
     }
 }
+
+.review-cards{
+    display: flex;
+    margin-top: 30px;
+    .review-card{
+        border:  1.5px solid #81818180;
+        border-radius: 20px;
+        width: 750px;
+        display: flex;
+        justify-content: space-between;
+        img{
+            border-radius: 20px;
+        }        
+        .review-txt{
+            padding: 53.5px 20px 53.5px;
+            .item-desc{
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 36px;
+                color: #000000;
+                margin-bottom: 15px;
+            }
+            .item-price{
+                font-size: 16px;
+                line-height: 36px;
+                strong{
+                    font-size: 24px;
+                }
+            }
+
+            .item-rate{
+                display: flex;
+                position: relative;
+                align-items: center;
+                user-select: none;
+                p{
+                    color: #FFAE5D;
+                    position: absolute;
+                    right: -3%;
+                    bottom: 2%;
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 400;
+                }
+
+                .star{
+                    margin-right: 15px;
+                    font-size: 40px;
+                    color: #FFAE5D;
+                    background-color: unset;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .review-card2{
+        margin-left: 19px;
+        border:  1.5px solid #81818180;
+        border-radius: 20px;
+        width: 750px;
+        display: flex;
+        justify-content: space-between;
+        img{
+            border-radius: 20px;
+        }        
+        .review-txt{
+            padding: 53.5px 20px 53.5px;
+            // border: 2px solid red;
+            .item-desc{
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 36px;
+                color: #000000;
+                margin-bottom: 15px;
+            }
+            .item-price{
+                font-size: 16px;
+                line-height: 36px;
+                strong{
+                    font-size: 24px;
+                }
+            }
+    
+            .item-rate2{
+                display: flex;
+                position: relative;
+                align-items: center;
+                user-select: none;
+                p{
+                    color: #FFAE5D;
+                    position: absolute;
+                    right: -6%;
+                    bottom: 2%;
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 400;
+                }
+    
+                .star2{
+                    margin-right: 15px;
+                    font-size: 40px;
+                    color: #FFAE5D;
+                    background-color: unset;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// .item-rate2{
+//     display: flex;
+//     position: relative;
+//     align-items: center;
+//     user-select: none;
+
+//     p{
+//         color: #FFAE5D;
+//         position: absolute;
+//         right: -3%;
+//         bottom: 2%;
+//         font-size: 16px;
+//         line-height: 24px;
+//         font-weight: 400;
+//     }
+
+//     .star2{
+//         margin-right: 15px;
+//         font-size: 40px;
+//         color: #FFAE5D;
+//         background-color: unset;
+//         border: none;
+//         outline: none;
+//         cursor: pointer;
+//     }
+// }
