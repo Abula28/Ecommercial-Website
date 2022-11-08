@@ -75,9 +75,4 @@
   .end-div .end-list ul li {
     padding: 0px 0px 25px !important;
   }
-}
-@media (max-width: 1367px) {
-  .end-div {
-    border: 2px solid red;
-  }
 }/*# sourceMappingURL=responsive.css.map */
