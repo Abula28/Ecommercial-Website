@@ -76,9 +76,32 @@
             margin: auto;
             img{
                 width: 50%;
-                border: 1px solid red;
                 transform: translateX(50%);
             }
         }
+    }
+
+    .end-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .end-list{
+            ul{
+                flex-direction: column;
+                transform: translateX(-20%);
+                justify-content: center;
+                align-items: center;
+                li{
+                    padding: 0px 0px 25px !important;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1367px){
+    .end-div{
+        border: 2px solid red;
     }
 }
